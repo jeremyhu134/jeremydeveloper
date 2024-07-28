@@ -1,0 +1,79 @@
+p {
+    text-align-last: left;
+}
+
+h1 {
+    font-size: 50px;
+    color: black;
+    margin-left: 5%;
+    font-family: century gothic;
+}
+h2 {
+    font-size: 30px;
+    color: black;
+    margin-left: 10%;
+    font-family: century gothic;
+}
+h3 {
+    font-size: 25px;
+    color: black;
+    margin-left: 5%;
+    font-family: century gothic;
+}
+
+.descriptions {
+    margin-left: 10%;
+    max-width: 50%;
+    font-family: century gothic;
+}
+
+.project-descriptions {
+    margin-left: 13%;
+    max-width: 50%;
+    font-family: century gothic;
+}
+
+.mainDiv{
+    
+}
+
+.descriptionMain {
+    margin-left: 10%;
+    max-width: 45%;
+    font-size: 30px;
+    font-family: century gothic;
+    float: left;
+}
+
+.navs a{
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+    font-family: century gothic;
+    float: left;
+}
+.navs a:hover {
+    border-bottom-style: ridge;
+}
+
+.navsmost{
+    list-style-type: none;
+    margin-left: 5%;
+    padding: 0;
+    overflow: hidden;
+    background-color: white;
+}
+
+@keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+.pfp{
+    float: right;
+    width: 30%;
+    margin-right: 5%;
+    border-radius: 200px;
+    animation: fadeIn 1s;
+}
