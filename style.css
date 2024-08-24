@@ -107,6 +107,27 @@ ul.descriptions li {
     margin-bottom: 10px;
 }
 
+/* Skills Section */
+.skills-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.skills-column {
+    flex: 1;
+    min-width: 200px; /* Adjust as needed */
+    max-width: 300px; /* Adjust as needed */
+}
+
+.skills-column h2 {
+    font-size: 1.2em;
+    color: #333;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+}
+
 /* Responsive Design */
 @media (max-width: 768px) {
     .profile {
@@ -116,5 +137,9 @@ ul.descriptions li {
 
     .pfp {
         margin: 0 auto 20px;
+    }
+
+    .skills-container {
+        flex-direction: column;
     }
 }
