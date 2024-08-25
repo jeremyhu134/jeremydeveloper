@@ -128,6 +128,52 @@ ul.descriptions li {
     margin-bottom: 10px;
 }
 
+/* Projects Gallery */
+.projects-gallery {
+    margin-top: 40px;
+    text-align: center;
+}
+
+.projects-gallery h2 {
+    font-size: 1.8em;
+    margin-bottom: 20px;
+}
+
+.projects-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    max-width: 800px;
+    margin: auto;
+}
+
+.projects-container a {
+    display: block;
+    width: 100%;
+    border-radius: 8px;
+    overflow: hidden;
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 1s ease, transform 1s ease;
+}
+
+.projects-container a.visible {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.projects-container img {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 8px;
+    transition: transform 0.3s ease;
+}
+
+.projects-container img:hover {
+    transform: scale(1.05);
+}
+
 /* Responsive Design */
 @media (max-width: 768px) {
     .profile {
